@@ -10,6 +10,11 @@ Zustimmung verboten. Der Shopbetreiber ist aber nicht dazu verpflichtet, die bes
 
 Das Modul Geoblocking bringt eine Einstellung mit, um Länder von der Lieferung auszuschließen. Es prüft darüber hinaus im Bestellprozess das Land, aus dem der Kunde bestellt. Gehört dieses nicht zum Liefergebiet, wird der Kunde zur Eingabe einer Lieferadresse innerhalb des Liefergebietes aufgefordert. Ohne gültige Lieferadresse kann die Bestellung nicht abgeschlossen werden. Der Shopbetreiber kann auch pro Land eine Abholadresse festlegen, welche dem Kunden bei der Bestellung zur Auswahl angeboten wird.
 
+.. |logo| image:: /media/icons/noriskgroup.png
+               :class: no-shadow
+
+|logo| Die Businesslogik des Moduls basiert auf einer Contribution der `norisk Group <https://norisk.group/>`_. Von unserem Partner erhielten wir ein Modul für ältere Versionen des OXID eShop und adaptierten es für dieses Geoblocking-Modul. Falls Sie eine ältere Shopversion (< Version 6) betreiben, können sie wegen des Moduls gern direkt bei der norisk Group anfragen.
+
 Die Funktionen im Überblick
 ---------------------------
 
