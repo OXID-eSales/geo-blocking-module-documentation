@@ -8,3 +8,5 @@ Moduldokumentation
    einfuehrung
    installation
    funktionsbeschreibung
+
+.. |home| image:: /media/icons/home.png
