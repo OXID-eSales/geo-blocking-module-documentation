@@ -8,3 +8,6 @@ Moduldokumentation
    einfuehrung
    installation
    funktionsbeschreibung
+
+
+.. |home-temp| image:: media/icons/home.png
