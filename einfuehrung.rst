@@ -1,7 +1,7 @@
 Einführung
 ==========
 
-Am 3.12.2018 trat die Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geo-Blocking im Binnenmarkt (GB-Verordnung) in Kraft. In Folge dieser Verordnung muss sichergestellt werden, dass Kunden aus allen EU-Mitgliedsstaaten Zugang zu jedem Onlineshop haben, der Waren innerhalb der Europäischen Union anbietet. Dabei sind zwei Aspekte hervorzuheben. Zum einen dürfen Kunden nicht von der Nutzung von Webseiten ausgeschlossen werden, zum anderen sind unterschiedliche Vertragskonditionen - also Preise und Zahlungsgebühren - auf Grundlage der Staatsangehörigleit, des Wohnsitzes oder der Niederlassung unzulässig. Die Geoblocking-Verordnung gilt für den B2C- und den B2B-Handel. Weiterführende Information finden Sie im `Gastblog: E-Commerce international – 8 Fragen zur Geoblocking-VO <https://blog.oxid-esales.com/2018/08/8-fragen-zur-geoblocking-vo/>`_ auf unserer Firmen-Webseite.
+Am 3.12.2018 trat die Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geoblocking im Binnenmarkt (GB-Verordnung) in Kraft. In Folge dieser Verordnung muss sichergestellt werden, dass Kunden aus allen EU-Mitgliedsstaaten Zugang zu jedem Onlineshop haben, der Waren innerhalb der Europäischen Union anbietet. Dabei sind zwei Aspekte hervorzuheben. Zum einen dürfen Kunden nicht von der Nutzung von Webseiten ausgeschlossen werden, zum anderen sind unterschiedliche Vertragskonditionen - also Preise und Zahlungsgebühren - auf Grundlage der Staatsangehörigleit, des Wohnsitzes oder der Niederlassung unzulässig. Die Geoblocking-Verordnung gilt für den B2C- und den B2B-Handel. Weiterführende Information finden Sie im `Gastblog: E-Commerce international – 8 Fragen zur Geoblocking-VO <https://blog.oxid-esales.com/2018/08/8-fragen-zur-geoblocking-vo/>`_ auf unserer Firmen-Webseite.
 
 Das Modul Geoblocking stellt Funktionen bereit, welche eine komfortable Umsetzung der Geoblocking-Verordnung im OXID eShop ermöglichen. Diese gehen über die Lösung hinaus, die mit shopeigenen Einstellungen erreicht werden kann und im Blockbeitrag `Geoblocking-Verordnung: Wie konfiguriere ich OXID eShop um konform zu sein? <https://oxidforge.org/de/faq-geoblocking.html>`_ auf der OXIDforge vorgestellt wurde.
 
@@ -23,6 +23,6 @@ Die Funktionen im Überblick
 * Kunden, die aus europäischen Ländern bestellen, in die keine Lieferung erfolgt, werden zur Angabe einer gültigen Lieferadresse aufgefordert
 * Bestellung von Kunden werden nur dann ermöglicht, wenn eine gültige Lieferadresse benannt oder eine Abholadresse ausgewählt wurde
 
-.. seealso:: `Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geo-Blocking im Binnenmarkt (GB-Verordnung) <https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R0302&from=DE>`_
+.. seealso:: `Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geoblocking im Binnenmarkt (GB-Verordnung) <https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R0302&from=DE>`_
 
 .. Intern: oxdaar, Status:

@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# Personalization documentation build configuration file, created by
-# sphinx-quickstart on Tue Jul  3 10:12:24 2018.
-#
 # This file is execfile()d with the current directory set to its
 # containing dir.
 #
@@ -284,7 +281,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'Personalization.tex', 'Personalization Documentation',
+    (master_doc, 'Geoblocking.tex', 'Geoblocking-Dokumentation',
      'OXID eSales AG', 'manual'),
 ]
 
@@ -320,7 +317,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'personalization', 'Personalization Documentation',
+    (master_doc, 'Geoblocking', 'Geoblocking-Dokumentation',
      [author], 1)
 ]
 
@@ -335,8 +332,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'Personalization', 'Personalization Documentation',
-     author, 'Personalization', 'One line description of project.',
+    (master_doc, 'Geoblocking', 'Geoblocking-Dokumentation',
+     author, 'Geoblocking', 'One line description of project.',
      'Miscellaneous'),
 ]
 
