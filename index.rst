@@ -1,12 +1,12 @@
-Moduldokumentation
-==================
+﻿Module documentation
+====================
 
 .. toctree::
    :maxdepth: 1
-   :caption: Geoblocking
+   :caption: Geo-blocking
 
-   einfuehrung
+   introduction
    installation
-   funktionsbeschreibung
+   function-description
 
 .. |home| image:: /media/icons/home.png

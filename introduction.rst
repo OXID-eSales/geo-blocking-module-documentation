@@ -1,28 +1,28 @@
-Einführung
-==========
+﻿Introduction
+============
 
-Am 3.12.2018 trat die Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geoblocking im Binnenmarkt (GB-Verordnung) in Kraft. In Folge dieser Verordnung muss sichergestellt werden, dass Kunden aus allen EU-Mitgliedsstaaten Zugang zu jedem Onlineshop haben, der Waren innerhalb der Europäischen Union anbietet. Dabei sind zwei Aspekte hervorzuheben. Zum einen dürfen Kunden nicht von der Nutzung von Webseiten ausgeschlossen werden, zum anderen sind unterschiedliche Vertragskonditionen - also Preise und Zahlungsgebühren - auf Grundlage der Staatsangehörigleit, des Wohnsitzes oder der Niederlassung unzulässig. Die Geoblocking-Verordnung gilt für den B2C- und den B2B-Handel. Weiterführende Information finden Sie im `Gastblog: E-Commerce international – 8 Fragen zur Geoblocking-VO <https://blog.oxid-esales.com/2018/08/8-fragen-zur-geoblocking-vo/>`_ auf unserer Firmen-Webseite.
+The Regulation (EU) 2018/302 of the European Parliament and of the Council on addressing unjustified geo-blocking within the internal market (Geo-blocking Regulation) entered into force on 03/12/2018. As a result of this Regulation, it must be ensured that customers from all EU Member States have access to every online shop offering goods within the European Union. There are two aspects to be emphasised. For one thing, customers must not be excluded from access to websites and for another, different contractual conditions - i.e. prices and payment fees - based on nationality, place of residence or place of establishment are not allowed. The Geo-blocking Regulation applies to B2C and B2B trade. Further information can be found in the German `Guest blog: E-commerce international - 8 questions about the Geo-blocking Regulation <https://blog.oxid-esales.com/2018/08/8-fragen-zur-geoblocking-vo/>`_ on our company website.
 
-Das Modul Geoblocking stellt Funktionen bereit, welche eine komfortable Umsetzung der Geoblocking-Verordnung im OXID eShop ermöglichen. Diese gehen über die Lösung hinaus, die mit shopeigenen Einstellungen erreicht werden kann und im Blogbeitrag `Geoblocking-Verordnung: Wie konfiguriere ich OXID eShop um konform zu sein? <https://oxidforge.org/de/faq-geoblocking.html>`_ auf der OXIDforge vorgestellt wurde.
+The geo-blocking module provides functions that make it easy to implement the Geo-blocking Regulation in OXID eShop. It goes beyond what can be achieved with shop-specific settings and was presented in the German blog post `Geo-blocking Regulation: How to configure OXID eShop to be compliant? <https://oxidforge.org/de/faq-geoblocking.html>`_ on OXIDforge.
 
-Shopbetreuer müssen sicherstellen, dass jeder Kunde aus einem europäischen Mitgliedsstaat im Onlineshop Waren bestellen darf. Das automatische Umleiten von Kunde auf länderspezifische Shops aufgrund ihrer IP-Adresse ist ohne ausdrückliche Zustimmung verboten. Der Shopbetreiber ist aber nicht dazu verpflichtet, die bestellte Ware in das Land des Kunden zu versenden, wenn dieses nicht im Liefergebiet liegt. Es ist ausreichend, die Abholung durch den Kunden innerhalb des Liefergebietes zu ermöglichen.
+Shop owners must ensure that every customer from a European Member State is allowed to order goods in the online shop. Automatic redirection of customers to country-specific shops due to their IP address is prohibited without explicit consent. However, shop owners are not required to ship the ordered goods to the customer’s country if it is not within their delivery area. Customers only need to be able to pick up their good within the delivery area.
 
-Das Modul Geoblocking bringt eine Einstellung mit, um Länder von der Lieferung auszuschließen. Es prüft darüber hinaus im Bestellprozess das Land, aus dem der Kunde bestellt. Gehört dieses nicht zum Liefergebiet, wird der Kunde zur Eingabe einer Lieferadresse innerhalb des Liefergebietes aufgefordert. Ohne gültige Lieferadresse kann die Bestellung nicht abgeschlossen werden. Der Shopbetreiber kann auch pro Land eine Abholadresse festlegen, welche dem Kunden bei der Bestellung zur Auswahl angeboten wird.
+The geo-blocking module has a setting to exclude specific countries for delivery. In addition, it checks the country the customer is ordering from and if this is not within the delivery area, the customer is prompted to enter a shipping address within the delivery area. The order cannot be completed without a valid shipping address. The shop owner can also specify one pickup address per country, which the customer can select when ordering.
 
 .. |logo| image:: /media/icons/noriskgroup.png
                :class: no-shadow
 
-|logo| Die Businesslogik des Moduls basiert auf einer Contribution der `norisk Group <https://norisk.group/>`_. Von unserem Partner erhielten wir ein Modul für ältere Versionen des OXID eShop und adaptierten es für dieses Geoblocking-Modul. Falls Sie eine ältere Shopversion (< Version 6) betreiben, können sie wegen des Moduls gern direkt bei der norisk Group anfragen.
+|logo| The business logic of the module is based on a contribution from `norisk Group <https://norisk.group/>`_. Our partner gave us a module for older versions of OXID eShop which we adapted for our geo-blocking module. If you use an older version of the shop (< Version 6), you are welcome to inquire about the module directly with norisk Group.
 
-Die Funktionen im Überblick
----------------------------
+Functions at a glance
+---------------------
 
-* Umsetzung der Geoblocking-Verordnung (EU 2018/302) hinsichtlich der europaweiten Nutzung des Angebotes von Onlineshops
-* Länder können festgelegt werden, in welche nicht geliefert wird
-* für Länder im Liefergebiet können Abholadressen eingerichtet werden
-* Kunden, die aus europäischen Ländern bestellen, in die keine Lieferung erfolgt, werden zur Angabe einer gültigen Lieferadresse aufgefordert
-* Bestellung von Kunden werden nur dann ermöglicht, wenn eine gültige Lieferadresse benannt oder eine Abholadresse ausgewählt wurde
+* Implementation of the Geo-blocking Regulation (EU 2018/302) with regard to the Europe-wide use of online shop offerings
+* Ability to specify countries to which delivery is not made
+* Pickup addresses can be set up for countries within the delivery area
+* Customers ordering from European countries to which delivery is not made will be asked to provide a valid shipping address
+* Customers can only place orders if a valid shipping address has been specified or a pickup address has been selected
 
-.. seealso:: `Verordnung (EU) 2018/302 des europäischen Parlaments und des Rates gegen ungerechtfertigtes Geoblocking im Binnenmarkt (GB-Verordnung) <https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:32018R0302&from=DE>`_
+.. seealso:: `Regulation (EU) 2018/302 of the European Parliament and of the Council on addressing unjustified geo-blocking within the internal market (Geo-blocking Regulation) <https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32018R0302&from=EN>`_
 
-.. Intern: oxdaar, Status:
+.. Internal: oxdaar, status:

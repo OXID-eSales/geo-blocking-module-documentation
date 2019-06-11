@@ -50,7 +50,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'Geoblocking'
+project = 'Geo-blocking'
 copyright = '2019, OXID eSales AG'
 author = 'OXID eSales AG'
 
@@ -68,7 +68,7 @@ release = '1.0'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'de'
+language = 'en'
 
 # There are two options for replacing |today|: either, you set today to some
 # non-false value, then it is used:
@@ -125,6 +125,11 @@ html_theme = 'sphinx_rtd_theme'
 
 html_context = {
     'current_version': '1.0',
+    'versions':
+         [('1.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/')],
+    'languages':
+         [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
+          ('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
@@ -132,7 +137,7 @@ html_context = {
     # Set the following variables to generate the resulting github URL for each page.
     'github_user': 'OXID-eSales',
     'github_repo': 'geo-blocking-module-documentation',
-    'github_version': '1.0-de/'
+    'github_version': '1.0-en/'
 }
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -146,7 +151,7 @@ html_theme_path = ['_themes']
 # The name for this set of Sphinx documents.
 # "<project> v<release> documentation" by default.
 #
-# html_title = 'Geoblocking v1.0'
+# html_title = 'Geo-blocking v1.0'
 
 # A shorter title for the navigation bar.  Default is the same as html_title.
 #

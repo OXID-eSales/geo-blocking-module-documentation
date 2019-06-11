@@ -1,35 +1,35 @@
-Installation
+﻿Installation
 ============
 
-Dieses Dokument beschreibt die Installation des Moduls Geoblocking für den OXID eShop Version 6.
+This document describes the installation of the geo-blocking module for OXID eShop Version 6.
 
 .. |schritt| image:: media/icons/schritt.jpg
                :class: no-shadow
 
-Systemvoraussetzungen
----------------------
-Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig. Es gelten die des OXID eShop ab Version 6.0: https://docs.oxid-esales.com/eshop/de/6.0/installation/neu-installation/server-und-systemvoraussetzungen.html.
+System requirements
+-------------------
+No special system requirements are necessary for the geo-blocking module. The requirements of OXID eShop Version 6.0 or higher apply: https://docs.oxid-esales.com/eshop/en/6.1/installation/new-installation/server-and-system-requirements.html.
 
 --------------------------------------------------
 
-Neu-Installation
+New installation
 ----------------
 
-|schritt| Modul installieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Modul wird aus dem Repository heruntergeladen und installiert. Dazu wird per Konsole folgendes Composer-Kommando im Hauptverzeichnis des Shops ausgeführt:
+|schritt| Installing the module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Download the module from the repository and install it. To do this, execute the following Composer command in the shop’s main directory via console:
 
 .. code:: bash
 
    composer require oxid-esales/geo-blocking-module --update-no-dev
 
 
-|schritt| Modul aktivieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Modul muss im Shop unter :menuselection:`Erweiterungen --> Module` aktiviert werden. Auf der Registerkarte :guilabel:`Stamm` des Moduls betätigen Sie die Schaltfläche :guilabel:`Aktivieren`.
+|schritt| Activating the module
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The module must be activated in the shop under :menuselection:`Extensions --> Modules`. To do this, click on :guilabel:`Activate` in the module’s :guilabel:`Main` tab.
 
-|schritt| Temporäre Dateien löschen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Löschen Sie alle Dateien und Ordner außer der :file:`.htaccess` aus dem Verzeichnis :file:`/tmp` des Shops.
+|schritt| Deleting temporary files
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Delete all files and folders except :file:`.htaccess` from the shop’s :file:`/tmp` directory.
 
-.. Intern: oxdaas, Status:
+.. Internal: oxdaas, status:
