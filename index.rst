@@ -9,4 +9,4 @@
    installation
    function-description
 
-.. |home| image:: /media/icons/home.png
+.. |home| image:: media/icons/home.png
