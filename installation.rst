@@ -21,7 +21,7 @@ Download the module from the repository and install it. To do this, execute the 
 
 .. code:: bash
 
-   composer require oxid-esales/geo-blocking-module --update-no-dev
+   composer require --update-no-dev oxid-esales/geo-blocking-module
 
 
 |schritt| Activating the module
@@ -31,5 +31,6 @@ The module must be activated in the shop under :menuselection:`Extensions --> Mo
 |schritt| Deleting temporary files
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Delete all files and folders except :file:`.htaccess` from the shop’s :file:`/tmp` directory.
+
 
 .. Internal: oxdaas, status:
