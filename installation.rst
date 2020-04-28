@@ -1,4 +1,4 @@
-Installation
+﻿Installation
 ============
 
 Dieses Dokument beschreibt die Installation des Moduls Geoblocking für den OXID eShop Version 6.
@@ -21,7 +21,7 @@ Das Modul wird aus dem Repository heruntergeladen und installiert. Dazu wird per
 
 .. code:: bash
 
-   composer require oxid-esales/geo-blocking-module --update-no-dev
+   composer require --update-no-dev oxid-esales/geo-blocking-module
 
 
 |schritt| Modul aktivieren
@@ -31,5 +31,6 @@ Das Modul muss im Shop unter :menuselection:`Erweiterungen --> Module` aktiviert
 |schritt| Temporäre Dateien löschen
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Löschen Sie alle Dateien und Ordner außer der :file:`.htaccess` aus dem Verzeichnis :file:`/tmp` des Shops.
+
 
 .. Intern: oxdaas, Status:
