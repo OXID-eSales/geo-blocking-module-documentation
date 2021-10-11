@@ -129,7 +129,8 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
     'current_version': '1.0',
     'versions':
-         [('1.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/')],
+         [('1.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
+          ('1.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.1/')],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
           ('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/')],
