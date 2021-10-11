@@ -133,7 +133,7 @@ html_context = {
           ('1.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.1/')],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
-          ('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/')],
+          ('DE', 'https://docs.oxid-esales.com/modules/geo-blocking/de/1.0/')],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
