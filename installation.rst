@@ -21,7 +21,7 @@ Download the module from the repository and install it. To do this, execute the 
 
 .. code:: bash
 
-   composer require --update-no-dev oxid-esales/geo-blocking-module
+   composer require --update-no-dev oxid-esales/geo-blocking-module:^1.0
 
 
 |schritt| Activating the module
