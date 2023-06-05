@@ -27,7 +27,7 @@ Führen Sie dazu per Konsole folgendes Composer-Kommando im Hauptverzeichnis des
 
 .. code:: bash
 
-   composer require --update-no-dev oxid-esales/geo-blocking-module
+   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.0
 
 
 |schritt| Modul aktivieren
