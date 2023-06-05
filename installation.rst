@@ -12,7 +12,7 @@ Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig
 
 .. todo: #tbd: verify link:
 
-Es gelten die des OXID eShop ab Version 7.0: https://docs.oxid-esales.com/eshop/de/latest/installation/neu-installation/server-und-systemvoraussetzungen.html.
+Es gelten die des OXID eShop ab Version 7.0: https://docs.oxid-esales.com/eshop/de/7.0/installation/neu-installation/server-und-systemvoraussetzungen.html.
 
 --------------------------------------------------
 
