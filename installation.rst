@@ -10,8 +10,6 @@ System requirements
 -------------------
 No special system requirements are necessary for the geo-blocking module.
 
-.. todo: #tbd: verify URL
-
 The requirements of OXID eShop Version 7.0 or higher apply: https://docs.oxid-esales.com/eshop/en/7.0/installation/new-installation/server-and-system-requirements.html.
 
 --------------------------------------------------
