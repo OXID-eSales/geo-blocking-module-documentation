@@ -10,7 +10,7 @@ Systemvoraussetzungen
 ---------------------
 Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig.
 
-Es gelten die des OXID eShop ab Version 7.0: https://docs.oxid-esales.com/eshop/de/7.0/installation/neu-installation/server-und-systemvoraussetzungen.html.
+Es gelten die des OXID eShop ab Version 7.1: https://docs.oxid-esales.com/eshop/de/7.1/installation/neu-installation/server-und-systemvoraussetzungen.html.
 
 --------------------------------------------------
 
@@ -25,7 +25,7 @@ Führen Sie dazu per Konsole folgendes Composer-Kommando im Hauptverzeichnis des
 
 .. code:: bash
 
-   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.0
+   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.1.0
 
 
 |schritt| Modul aktivieren

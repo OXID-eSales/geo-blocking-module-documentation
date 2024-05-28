@@ -8,7 +8,7 @@
    einfuehrung
    installation
    funktionsbeschreibung
-   Changelog (GitHub) ➜ <https://github.com/OXID-eSales/geo-blocking-module/blob/v2.0.0/CHANGELOG.md>
+   Changelog (GitHub) ➜ <https://github.com/OXID-eSales/geo-blocking-module/blob/v2.1.0/CHANGELOG.md>
 
 .. image:: media/icons/home.png
    :width: 0 px
