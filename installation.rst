@@ -10,7 +10,7 @@ System requirements
 -------------------
 No special system requirements are necessary for the geo-blocking module.
 
-The requirements of OXID eShop Version 7.0 or higher apply: https://docs.oxid-esales.com/eshop/en/7.0/installation/new-installation/server-and-system-requirements.html.
+The requirements of OXID eShop Version 7.1 or higher apply: https://docs.oxid-esales.com/eshop/en/7.1/installation/new-installation/server-and-system-requirements.html.
 
 --------------------------------------------------
 
@@ -23,7 +23,7 @@ Download the module from the repository and install it. To do this, execute the 
 
 .. code:: bash
 
-   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.0
+   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.1.0
 
 
 |schritt| Activating the module
