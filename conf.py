@@ -259,10 +259,23 @@ html_show_sphinx = False
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Geoblockingdoc'
 # A string of reStructuredText that will be included at the beginning of every source file that is read.
+
+# A string of reStructuredText that will be included at the beginning of every source file that is read.
+rst_prolog = """
+.. role:: db
+.. role:: productname
+.. role:: technicalname
+"""
+
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
-            :class: no-shadow
+           :class: no-shadow
 
+.. |procedure| replace:: **Procedure**
+.. |prerequisites| replace:: **Prerequisites**
+.. |result| replace:: **Result**
+.. |background| replace:: **Background**
+.. |example| replace:: **Example**
 .. |br| raw:: html
 
    <br />
