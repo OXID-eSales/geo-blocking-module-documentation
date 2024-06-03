@@ -1,10 +1,7 @@
 ﻿Installation
 ============
 
-Dieses Dokument beschreibt die Installation des Moduls Geoblocking für den OXID eShop Version 7.
-
-.. |schritt| image:: media/icons/schritt.jpg
-               :class: no-shadow
+Installieren Sie das Modul Geoblocking für den OXID eShop Version 7.
 
 Systemvoraussetzungen
 ---------------------
@@ -12,32 +9,35 @@ Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig
 
 Es gelten die des OXID eShop ab Version 7.1: https://docs.oxid-esales.com/eshop/de/7.1/installation/neu-installation/server-und-systemvoraussetzungen.html.
 
---------------------------------------------------
 
-Neu-Installation
-----------------
+Neuinstallation
+---------------
 
-|schritt| Modul installieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Modul wird aus dem Repository heruntergeladen und installiert.
+1. Laden Sie das Modul aus dem Repository herunter und installieren Sie es.
 
-Führen Sie dazu per Konsole folgendes Composer-Kommando im Hauptverzeichnis des Shops aus:
+   Führen Sie dazu im Hauptverzeichnis des Shops den folgenden Composer-Befehl über die Konsole aus:
 
-.. code:: bash
+   .. code:: bash
 
-   composer require --update-no-dev oxid-esales/geo-blocking-module:^2.1.0
+      composer require --update-no-dev oxid-esales/geo-blocking-module:^2.1.0
 
+#. Um das Modul zu aktivieren, führen Sie einen der folgenden Schritte aus:
 
-|schritt| Modul aktivieren
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-Das Modul muss im Shop unter :menuselection:`Erweiterungen --> Module` aktiviert werden.
+   * Um das Modul automatisch über die OXID eShop-Konsole zu aktivieren, gehen Sie wie folgt vor:
 
-Wählen Sie dazu auf der Registerkarte :guilabel:`Stamm` des Moduls  die Schaltfläche :guilabel:`Aktivieren`.
+     a. Falls zutreffend, passen Sie die Subshop-ID im folgenden Befehl an:
 
-|schritt| Temporäre Dateien löschen
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        .. code:: bash
 
-Löschen Sie alle Dateien und Ordner außer der :file:`.htaccess` aus dem Verzeichnis :file:`/tmp` des Shops.
+           ./vendor/bin/oe-console oe:module:activate --shop-id=<subshop-id> oegeoblocking
+
+     b. Führen Sie den Befehl aus, in unserem Beispiel für den Subshop :productname:`OXID eShop Enterprise B2B Edition` mit der Shop-ID 3:
+
+        .. code:: bash
+
+           ./vendor/bin/oe-console oe:module:activate --shop-id=3 oegeoblocking
+
+   * Um das Modul manuell zu aktivieren, wählen Sie im Shop unter :menuselection:`Erweiterungen --> Module` auf der Registerkarte :guilabel:`Stamm` die Schaltfläche :guilabel:`Aktivieren`.
 
 
 .. Intern: oxdaas, Status:

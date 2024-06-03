@@ -131,7 +131,7 @@ html_context = {
     'versions':
          [('1.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/'),
           ('1.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.1/'),
-          ('2.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/')],
+          ('2.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/'),
           ('2.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/')],
     'languages':
          [('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/'),
@@ -258,11 +258,22 @@ html_show_sphinx = False
 
 # Output file base name for HTML help builder.
 htmlhelp_basename = 'Geoblockingdoc'
-# A string of reStructuredText that will be included at the beginning of every source file that is read.
+
+# A string of reStructuredText that will be included at the beginning of every source file that is read; custom roles; associated classes are defined in the css
+rst_prolog = """
+.. role:: db
+.. role:: productname
+.. role:: technicalname
+"""
+
 rst_epilog = """
 .. |link| image:: /media/icons/link.png
-            :class: no-shadow
-
+           :class: no-shadow
+.. |procedure| replace:: **Vorgehen**
+.. |prerequisites| replace:: **Voraussetzungen**
+.. |result| replace:: **Resultat**
+.. |background| replace:: **Hintergrund**
+.. |example| replace:: **Beispiel**
 .. |br| raw:: html
 
    <br />
