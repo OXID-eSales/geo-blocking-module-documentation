@@ -131,7 +131,7 @@ html_context = {
     'versions':
          [('1.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
           ('1.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.1/'),
-          ('2.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.0/')],
+          ('2.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.0/'),
           ('2.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/')],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/'),
