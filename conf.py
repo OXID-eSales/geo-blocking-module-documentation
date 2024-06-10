@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Geoblocking'
-copyright = '{}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '2019 - {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -131,7 +131,8 @@ html_context = {
     'versions': [
           ('1.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/'),
           ('1.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.1/'),
-          ('2.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/')
+          ('2.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/'),
+          ('2.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/'),
      ],
     'languages':
          [('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/'),
