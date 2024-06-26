@@ -134,9 +134,10 @@ html_context = {
           ('2.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.0/'),
           ('2.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/'),
     ],
-    'languages':
-         [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/'),
-          ('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/')],
+    'languages': [
+          ('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/'),
+          ('DE', 'https://docs.oxid-esales.com/modules/geo-blocking/de/2.1/')
+     ],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
