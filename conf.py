@@ -132,11 +132,12 @@ html_context = {
           ('1.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.0/'),
           ('1.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/1.1/'),
           ('2.0', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/'),
-          ('2.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/'),
+          ('2.1', 'https://docs.oxid-esales.com/modules/geo-blocking/de/2.1/'),
      ],
-    'languages':
-         [('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/'),
-          ('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/')],
+    'languages': [
+          ('DE', 'https://docs.oxid-esales.com/modules/geo-blocking/de/2.1/'),
+          ('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/')
+     ],
     'css_files': [('_static/oxid.css')],
     'theme_logo_only': True,
     'show_sphinx': False,
