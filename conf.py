@@ -54,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Geo-blocking'
-copyright = '2019 - {}, OXID eSales AG'.format(dt.date.today().year)
+copyright = '2003 \u2013 {}, OXID eSales AG'.format(dt.date.today().year)
 author = 'OXID eSales AG'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -134,6 +134,7 @@ html_context = {
           ('2.0', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.0/'),
           ('2.1', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.1/'),
           ('2.2', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.2/'),
+          ('2.3', 'https://docs.oxid-esales.com/modules/geo-blocking/en/2.3/'),
     ],
     'languages':
          [('EN', 'https://docs.oxid-esales.com/modules/geo-blocking/en/1.0/'),
