@@ -1,13 +1,13 @@
 ﻿Installation
 ============
 
-Installieren Sie das Modul Geoblocking für den OXID eShop Version 7.3.x.
+Installieren Sie das Modul Geoblocking für den OXID eShop Version 7.4.x.
 
 Systemvoraussetzungen
 ---------------------
 Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig.
 
-Es gelten die des OXID eShop ab Version 7.3: https://docs.oxid-esales.com/eshop/de/7.3/installation/neu-installation/server-und-systemvoraussetzungen.html.
+Es gelten die des OXID eShop ab Version 7.4: https://docs.oxid-esales.com/eshop/de/7.4/installation/neu-installation/server-und-systemvoraussetzungen.html.
 
 
 Neuinstallation
@@ -19,7 +19,7 @@ Neuinstallation
 
    .. code:: bash
 
-      composer require --update-no-dev oxid-esales/geo-blocking-module:^2.3.0
+      composer require --update-no-dev oxid-esales/geo-blocking-module:^2.4.0
 
 #. Um das Modul zu aktivieren, führen Sie einen der folgenden Schritte aus:
 
