@@ -135,6 +135,7 @@ html_context = {
           ('2.1', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.1/'),
           ('2.2', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.2/'),
           ('2.3', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.3/'),
+          ('2.5', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.5/'),
      ],
     'languages':
          [('DE', 'https://docs.oxid-esales.com/modules/geoblocking/de/2.0/'),
