@@ -7,7 +7,7 @@ Systemvoraussetzungen
 ---------------------
 Für das Modul Geoblocking sind keine speziellen Systemvoraussetzungen notwendig.
 
-Es gelten die des OXID eShop ab Version 7.6: https://docs.oxid-esales.com/eshop/de/7.6/installation/neu-installation/server-und-systemvoraussetzungen.html.
+Es gelten die `Systemvoraussetzungen des OXID eShop ab Version 7.6 <https://docs.oxid-esales.com/eshop/de/7.6/installation/neu-installation/server-und-systemvoraussetzungen.html>`_.
 
 
 Neuinstallation
