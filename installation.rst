@@ -1,7 +1,7 @@
 ﻿Installation
 ============
 
-Install the geo-blocking module for OXID e Shop Version 7.6.x.
+Install the geo-blocking module for OXID eShop Version 7.6.x.
 
 .. |schritt| image:: media/icons/schritt.jpg
                :class: no-shadow
